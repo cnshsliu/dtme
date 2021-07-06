@@ -1,0 +1,34 @@
+{
+  "name": "dtme",
+  "version": "1.0.0",
+  "description": "dtme",
+  "private": true,
+  "scripts": {
+    "start": "parcel serve src/*.html"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@parcel/config-default": "^2.0.0-beta.3.1",
+    "@parcel/transformer-image": "^2.0.0-beta.3.1",
+    "parcel": "^2.0.0-beta.3.1",
+    "parcel-config-pwa-manifest": "0.0.9"
+  },
+  "alias": {
+  },
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 edge versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ],
+  "engines": {
+    "node": ">=4.x"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base"
+  }
+}
